@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <h2>ICPC Regional Registration</h2>
+
+    <form action="/register-icpc" method="post">
+
+        <!-- 1. required -->
+        <label for="teamName">Team Name:</label><br>
+        <input type="text" id="teamName" name="teamName" required>
+        <br><br>
+
+        <!-- 2. minlength -->
+        <label for="handle">Codeforces Handle (Min 3 chars):</label><br>
+        <input type="text" id="handle" name="handle" minlength="3">
+        <br><br>
+
+        <!-- 3. maxlength -->
+        <label for="motto">Team Motto (Max 50 chars):</label><br>
+        <input type="text" id="motto" name="motto" maxlength="50">
+        <br><br>
+
+        <!-- 4. pattern -->
+        <label for="uniCode">University Short Code (Uppercase letters only):</label><br>
+        <input type="text" id="uniCode" name="uniCode" pattern="[A-Z]+">
+        <br><br>
+
+        <!-- 5. min -->
+        <label for="solved">Minimum Problems Solved (minimum 50 value):</label><br>
+        <input type="number" id="solved" name="solved" min="50">
+        <br><br>
+
+        <!-- 6. max -->
+        <label for="members">Team Members max value 3:</label><br>
+        <input type="number" id="members" name="members" max="3">
+        <br><br>
+
+        <!-- 7. step -->
+        <label for="rating">Average Team Rating (Step 50):</label><br>
+        <input type="number" id="rating" name="rating" step="50" placeholder="1500">
+        <br><br>
+
+        <button type="submit">Register Team</button>
+
+    </form>
+
+</body>
+</html>
