@@ -1,0 +1,25 @@
+/* class selector */
+
+.para {
+    font-style: italic;
+    color: blue;
+}
+
+/* id selctor */
+
+#head {
+    color : red;
+    font-size: xx-large;
+}
+
+/* element selector */
+h5 {
+    color: green;
+    font-size: large;   
+}
+
+/* grouping selectors */
+h3, h4 {
+    color: orange;
+    font-size: x-large;
+}

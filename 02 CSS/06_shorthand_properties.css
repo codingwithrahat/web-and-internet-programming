@@ -1,0 +1,42 @@
+/* margin */
+.box1 {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/* Shorthand */
+.box2 {
+    margin: 20px 40px;
+}
+
+
+
+
+
+/* border */
+.box1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+/* Shorthand */
+.box2 {
+    border: 2px solid red;
+}
+
+
+
+/* bcakground */
+.box1 {
+    background-color: lightblue;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Shorthand */
+.box2 {
+    background: lightblue url("image.jpg") no-repeat;
+}
