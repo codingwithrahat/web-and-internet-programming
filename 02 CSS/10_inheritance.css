@@ -1,0 +1,61 @@
+    /* Inheritance:
+   Some CSS properties are automatically inherited from parent elements
+   by their child elements. */
+
+    /* Inherited properties:
+   color, font-family, font-size, line-height */
+
+    /* Non-inherited properties:
+   margin, padding, border, background */ 
+
+body {
+    color : blue;
+}
+
+
+
+
+/* inherit:
+   Forces an element to take the property value from its parent,
+   even if the property is not normally inherited. */
+
+
+.parent {
+    border: 2px solid red;
+}
+
+.child {
+    border: inherit;
+}
+
+
+
+
+/* initial:
+   Resets a property to its initial CSS value. */
+
+.parent {
+    color: blue;
+}
+
+.child {
+    color: initial;
+}
+
+
+
+
+/* unset:
+   Acts as inherit for inherited properties
+   and initial for non-inherited properties. */
+
+
+.parent {
+    color: blue;
+    padding: 20px;
+}
+
+.child {
+    color: unset;
+    padding: unset;
+}

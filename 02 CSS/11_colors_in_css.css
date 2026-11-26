@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: steelblue;
+}
+
+div {
+    background-color: tomato;
+}
+
+/* this rae predefined name of colors in css */
+
+
+
+h1 {
+    color: #12B24B;
+}
+/* hex code, here every value is in the range of 00 to FF for red, green, and blue respectively. */
+
+
+h1 {
+    color: rgb(18, 178, 75);
+}
+/* this is rgb(18, 178, 75) is the same as #12B24B */
+/* here values are in the range of 0 to 255 for red, green, and blue respectively. */
+
+
+* {
+    background-color: rgba(18, 178, 75, 0.5);
+}
+
+/* rgba stands for red, green, blue, and alpha. The alpha value is in the range of 0 to 1, where 0 is fully transparent and 1 is fully opaque. */
+
+
+h1 {
+    color: hsl(143, 82%, 38%);
+}
+
+/* hsl stands for hue, saturation, and lightness. The hue value is in the range of 0 to 360 degrees, where 0 is red, 120 is green, and 240 is blue. The saturation and lightness values are in the range of 0% to 100%. */
+/* sturation means how much coor is vivid or grayish and lightness means how much color is light or dark. */
